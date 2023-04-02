@@ -1,0 +1,139 @@
+body{
+    background-color: antiquewhite;
+
+}
+*{
+  margin: 0;
+  padding: 0;  
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 75px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+nav ul li{
+   padding: 20px;
+}
+.bottom{
+    position: sticky;
+    height: 105px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 26px;
+    background-image: url('TS.jpg');
+    background-size: 1150px;
+    background-size: cover;
+}
+
+   
+#myProgressBar{
+    width: 70vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%
+    /* margin: 10px 5px; */
+}
+.songItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.songItem:hover{
+    transform: scale(1.1);
+}
+.songItem:active{
+    background-color: rgb(140, 137, 137); ;
+}
+.songName{
+    margin: 0 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.songInfo{
+    margin: 0 20px;
+}
+.timeStamp{
+    margin: 0 20px;
+
+}
+.timeStamp i{
+    cursor: pointer;
+    margin-right:10px;
+    margin-left: 10px;
+}
+.songList h1 i{
+    color: #0aee5a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.songList h1 i:hover{
+    color: #0aee5a;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.songCards{
+    margin-top: 20px;
+}
+
+#masterPlay:active{
+    color: rgb(140, 137, 137);
+}
+#previous{
+    margin: 0 30px;
+}
+#previous:active{
+    color: rgb(140, 137, 137);
+}
+#next{
+    margin: 0 30px;
+}
+#next:active{
+    color: rgb(140, 137, 137);
+}
+.currentT{
+    color: white;
+    float: left;
+}
